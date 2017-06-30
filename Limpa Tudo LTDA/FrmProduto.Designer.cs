@@ -204,8 +204,13 @@
             this.Controls.Add(this.btnEditar);
             this.Controls.Add(this.btnAdicionar);
             this.Controls.Add(this.gpbProdutos);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "FrmProduto";
-            this.Text = "Produto";
+            this.ShowIcon = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Cadastro de Produtos";
             this.Load += new System.EventHandler(this.Produto_Load);
             this.gpbProdutos.ResumeLayout(false);
             this.gpbProdutos.PerformLayout();

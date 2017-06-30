@@ -76,7 +76,7 @@ namespace Limpa_Tudo_LTDA
             }
             else
             {
-                string msg = "Não há cliente para edição";
+                string msg = "Não há cliente selecionado para edição";
                 MessageBox.Show(msg, "Editar", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
             }

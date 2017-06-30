@@ -34,7 +34,7 @@ namespace Limpa_Tudo_LTDA.Camadas.BLL
             List<Model.Produto> lstProd = new List<Model.Produto>();
             lstProd = bllProd.SelectById(ItemPedido.produto);
             produto = lstProd[0];
-            produto.status = 'E';
+            produto.status = 'V';
             bllProd.Update(produto);
             dalItmPed.Insert(ItemPedido);
         }

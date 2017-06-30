@@ -74,7 +74,7 @@ namespace Limpa_Tudo_LTDA
             if (lstProd != null)
                 produto = lstProd[0];
             else MessageBox.Show("Produto não encontrado");
-            if (produto.status != 'V')
+            if (produto.status != 'L')
             {
                 MessageBox.Show("Produto não pode ser comprado: " + produto.status);
                 cmbProduto.Focus();
@@ -237,7 +237,7 @@ namespace Limpa_Tudo_LTDA
                 lblDias.Text = dgvItemPedido.SelectedRows[0].Cells["dias"].Value.ToString();
                 if (Convert.ToInt32(lblDias.Text) == 0)
                 {
-                    lblStatus.Text = "E";
+                    lblStatus.Text = "V";
                     btnBaixaPed.Enabled = true;
                 }
                 else
@@ -257,8 +257,8 @@ namespace Limpa_Tudo_LTDA
                 LimparDadosItemPedido();
                 lblItmPedID.Text = "-1";
                 HabDesabItemPedido(true);
-                lblEntrega.Text = dtpData.Value.AddDays(1).ToString();
-                lblDias.Text = "0";
+                lblEntrega.Text = dtpData.Value.AddDays(7).ToString();
+                lblDias.Text = "7";
                 lblTotal.Text = "0";
                 btnBaixaPed.Enabled = false;
                 cmbProduto.Focus();

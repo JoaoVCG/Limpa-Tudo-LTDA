@@ -16,14 +16,14 @@ namespace Limpa_Tudo_LTDA.Camadas.BLL
 
         public List<Model.Produto> SelectById(int id)
         {
-            DAL.Produto dallProd = new DAL.Produto();
-            return dallProd.SelectById(id);
+            DAL.Produto dalProd = new DAL.Produto();
+            return dalProd.SelectById(id);
         }
 
         public List<Model.Produto> SelectByNome(string nome)
         {
-            DAL.Produto dallProd = new DAL.Produto();
-            return dallProd.SelectByNome(nome);
+            DAL.Produto dalProd = new DAL.Produto();
+            return dalProd.SelectByNome(nome);
         }
 
         public void Insert(Model.Produto Produto)

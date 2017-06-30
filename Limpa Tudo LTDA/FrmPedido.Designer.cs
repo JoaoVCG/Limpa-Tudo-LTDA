@@ -185,7 +185,7 @@
             // cmbProduto
             // 
             this.cmbProduto.FormattingEnabled = true;
-            this.cmbProduto.Location = new System.Drawing.Point(162, 43);
+            this.cmbProduto.Location = new System.Drawing.Point(194, 45);
             this.cmbProduto.Name = "cmbProduto";
             this.cmbProduto.Size = new System.Drawing.Size(217, 21);
             this.cmbProduto.TabIndex = 21;
@@ -194,7 +194,7 @@
             // 
             // txtProduto
             // 
-            this.txtProduto.Location = new System.Drawing.Point(103, 43);
+            this.txtProduto.Location = new System.Drawing.Point(135, 45);
             this.txtProduto.Name = "txtProduto";
             this.txtProduto.Size = new System.Drawing.Size(53, 20);
             this.txtProduto.TabIndex = 20;
@@ -202,7 +202,7 @@
             // 
             // txtValor
             // 
-            this.txtValor.Location = new System.Drawing.Point(103, 105);
+            this.txtValor.Location = new System.Drawing.Point(135, 107);
             this.txtValor.Name = "txtValor";
             this.txtValor.Size = new System.Drawing.Size(71, 20);
             this.txtValor.TabIndex = 19;
@@ -210,7 +210,7 @@
             // lblDias
             // 
             this.lblDias.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lblDias.Location = new System.Drawing.Point(103, 133);
+            this.lblDias.Location = new System.Drawing.Point(135, 133);
             this.lblDias.Name = "lblDias";
             this.lblDias.Size = new System.Drawing.Size(53, 23);
             this.lblDias.TabIndex = 18;
@@ -218,7 +218,7 @@
             // lblTotal
             // 
             this.lblTotal.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lblTotal.Location = new System.Drawing.Point(102, 162);
+            this.lblTotal.Location = new System.Drawing.Point(134, 167);
             this.lblTotal.Name = "lblTotal";
             this.lblTotal.Size = new System.Drawing.Size(72, 23);
             this.lblTotal.TabIndex = 17;
@@ -226,7 +226,7 @@
             // lblStatus
             // 
             this.lblStatus.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lblStatus.Location = new System.Drawing.Point(446, 40);
+            this.lblStatus.Location = new System.Drawing.Point(486, 47);
             this.lblStatus.Name = "lblStatus";
             this.lblStatus.Size = new System.Drawing.Size(53, 23);
             this.lblStatus.TabIndex = 16;
@@ -234,7 +234,7 @@
             // lblEntrega
             // 
             this.lblEntrega.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lblEntrega.Location = new System.Drawing.Point(103, 75);
+            this.lblEntrega.Location = new System.Drawing.Point(135, 73);
             this.lblEntrega.Name = "lblEntrega";
             this.lblEntrega.Size = new System.Drawing.Size(153, 23);
             this.lblEntrega.TabIndex = 15;
@@ -242,7 +242,7 @@
             // lblItmPedID
             // 
             this.lblItmPedID.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lblItmPedID.Location = new System.Drawing.Point(103, 11);
+            this.lblItmPedID.Location = new System.Drawing.Point(135, 11);
             this.lblItmPedID.Name = "lblItmPedID";
             this.lblItmPedID.Size = new System.Drawing.Size(53, 23);
             this.lblItmPedID.TabIndex = 14;
@@ -251,7 +251,7 @@
             // 
             this.lblStatusPed.AutoSize = true;
             this.lblStatusPed.Font = new System.Drawing.Font("Corbel", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblStatusPed.Location = new System.Drawing.Point(385, 46);
+            this.lblStatusPed.Location = new System.Drawing.Point(425, 48);
             this.lblStatusPed.Name = "lblStatusPed";
             this.lblStatusPed.Size = new System.Drawing.Size(55, 18);
             this.lblStatusPed.TabIndex = 13;
@@ -262,7 +262,7 @@
             // 
             this.lblTotalPed.AutoSize = true;
             this.lblTotalPed.Font = new System.Drawing.Font("Corbel", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTotalPed.Location = new System.Drawing.Point(50, 167);
+            this.lblTotalPed.Location = new System.Drawing.Point(82, 167);
             this.lblTotalPed.Name = "lblTotalPed";
             this.lblTotalPed.Size = new System.Drawing.Size(46, 18);
             this.lblTotalPed.TabIndex = 12;
@@ -273,17 +273,17 @@
             // 
             this.lblDiasPed.AutoSize = true;
             this.lblDiasPed.Font = new System.Drawing.Font("Corbel", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDiasPed.Location = new System.Drawing.Point(56, 138);
+            this.lblDiasPed.Location = new System.Drawing.Point(5, 133);
             this.lblDiasPed.Name = "lblDiasPed";
-            this.lblDiasPed.Size = new System.Drawing.Size(40, 18);
+            this.lblDiasPed.Size = new System.Drawing.Size(123, 18);
             this.lblDiasPed.TabIndex = 11;
-            this.lblDiasPed.Text = "Dias:";
+            this.lblDiasPed.Text = "Prazo de Entrega:";
             // 
             // lblValor
             // 
             this.lblValor.AutoSize = true;
             this.lblValor.Font = new System.Drawing.Font("Corbel", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblValor.Location = new System.Drawing.Point(50, 107);
+            this.lblValor.Location = new System.Drawing.Point(82, 107);
             this.lblValor.Name = "lblValor";
             this.lblValor.Size = new System.Drawing.Size(47, 18);
             this.lblValor.TabIndex = 10;
@@ -293,7 +293,7 @@
             // 
             this.lblProduto.AutoSize = true;
             this.lblProduto.Font = new System.Drawing.Font("Corbel", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblProduto.Location = new System.Drawing.Point(32, 43);
+            this.lblProduto.Location = new System.Drawing.Point(65, 45);
             this.lblProduto.Name = "lblProduto";
             this.lblProduto.Size = new System.Drawing.Size(64, 18);
             this.lblProduto.TabIndex = 9;
@@ -303,7 +303,7 @@
             // 
             this.lblEntregaPed.AutoSize = true;
             this.lblEntregaPed.Font = new System.Drawing.Font("Corbel", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEntregaPed.Location = new System.Drawing.Point(33, 73);
+            this.lblEntregaPed.Location = new System.Drawing.Point(65, 73);
             this.lblEntregaPed.Name = "lblEntregaPed";
             this.lblEntregaPed.Size = new System.Drawing.Size(64, 18);
             this.lblEntregaPed.TabIndex = 8;
@@ -313,7 +313,7 @@
             // 
             this.lblIdItemPedido.AutoSize = true;
             this.lblIdItemPedido.Font = new System.Drawing.Font("Corbel", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblIdItemPedido.Location = new System.Drawing.Point(24, 11);
+            this.lblIdItemPedido.Location = new System.Drawing.Point(56, 14);
             this.lblIdItemPedido.Name = "lblIdItemPedido";
             this.lblIdItemPedido.Size = new System.Drawing.Size(73, 18);
             this.lblIdItemPedido.TabIndex = 7;
