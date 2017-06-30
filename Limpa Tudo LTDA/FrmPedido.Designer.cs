@@ -89,7 +89,7 @@
             // cmbCliente
             // 
             this.cmbCliente.FormattingEnabled = true;
-            this.cmbCliente.Location = new System.Drawing.Point(162, 74);
+            this.cmbCliente.Location = new System.Drawing.Point(193, 81);
             this.cmbCliente.Name = "cmbCliente";
             this.cmbCliente.Size = new System.Drawing.Size(245, 21);
             this.cmbCliente.TabIndex = 6;
@@ -98,7 +98,7 @@
             // 
             // txtCliente
             // 
-            this.txtCliente.Location = new System.Drawing.Point(103, 74);
+            this.txtCliente.Location = new System.Drawing.Point(134, 81);
             this.txtCliente.Name = "txtCliente";
             this.txtCliente.Size = new System.Drawing.Size(53, 20);
             this.txtCliente.TabIndex = 5;
@@ -106,7 +106,7 @@
             // 
             // dtpData
             // 
-            this.dtpData.Location = new System.Drawing.Point(103, 45);
+            this.dtpData.Location = new System.Drawing.Point(134, 52);
             this.dtpData.Name = "dtpData";
             this.dtpData.Size = new System.Drawing.Size(226, 20);
             this.dtpData.TabIndex = 4;
@@ -114,7 +114,7 @@
             // lblIdPed
             // 
             this.lblIdPed.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lblIdPed.Location = new System.Drawing.Point(103, 11);
+            this.lblIdPed.Location = new System.Drawing.Point(134, 18);
             this.lblIdPed.Name = "lblIdPed";
             this.lblIdPed.Size = new System.Drawing.Size(53, 23);
             this.lblIdPed.TabIndex = 3;
@@ -123,7 +123,7 @@
             // 
             this.lblCliente.AutoSize = true;
             this.lblCliente.Font = new System.Drawing.Font("Corbel", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCliente.Location = new System.Drawing.Point(38, 74);
+            this.lblCliente.Location = new System.Drawing.Point(69, 81);
             this.lblCliente.Name = "lblCliente";
             this.lblCliente.Size = new System.Drawing.Size(59, 18);
             this.lblCliente.TabIndex = 2;
@@ -134,7 +134,7 @@
             // 
             this.lblData.AutoSize = true;
             this.lblData.Font = new System.Drawing.Font("Corbel", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblData.Location = new System.Drawing.Point(6, 42);
+            this.lblData.Location = new System.Drawing.Point(37, 49);
             this.lblData.Name = "lblData";
             this.lblData.Size = new System.Drawing.Size(91, 18);
             this.lblData.TabIndex = 1;
@@ -144,7 +144,7 @@
             // 
             this.lblIdPedido.AutoSize = true;
             this.lblIdPedido.Font = new System.Drawing.Font("Corbel", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblIdPedido.Location = new System.Drawing.Point(24, 9);
+            this.lblIdPedido.Location = new System.Drawing.Point(55, 16);
             this.lblIdPedido.Name = "lblIdPedido";
             this.lblIdPedido.Size = new System.Drawing.Size(73, 18);
             this.lblIdPedido.TabIndex = 0;
@@ -303,11 +303,11 @@
             // 
             this.lblEntregaPed.AutoSize = true;
             this.lblEntregaPed.Font = new System.Drawing.Font("Corbel", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEntregaPed.Location = new System.Drawing.Point(65, 73);
+            this.lblEntregaPed.Location = new System.Drawing.Point(10, 73);
             this.lblEntregaPed.Name = "lblEntregaPed";
-            this.lblEntregaPed.Size = new System.Drawing.Size(64, 18);
+            this.lblEntregaPed.Size = new System.Drawing.Size(118, 18);
             this.lblEntregaPed.TabIndex = 8;
-            this.lblEntregaPed.Text = "Entrega:";
+            this.lblEntregaPed.Text = "Data de Entrega:";
             // 
             // lblIdItemPedido
             // 

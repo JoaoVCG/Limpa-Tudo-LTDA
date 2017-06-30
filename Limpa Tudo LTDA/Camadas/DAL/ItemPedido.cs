@@ -173,6 +173,7 @@ namespace Limpa_Tudo_LTDA.Camadas.DAL
             SqlConnection conectar = new SqlConnection(strConex);
             string sql = "Delete from ItemPedido where id=@id; ";
             SqlCommand cmd = new SqlCommand(sql, conectar);
+            cmd.Parameters.AddWithValue("@id", ItemPedido.id);
             conectar.Open();
             try
             {
