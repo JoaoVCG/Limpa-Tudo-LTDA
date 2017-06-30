@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace Limpa_Tudo_LTDA.Relatorio
 {
+
     public class Diretorio
     {
         public static string diretorioRaiz()

@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace Limpa_Tudo_LTDA.Relatorio
 {
     public class RelatorioCliente
